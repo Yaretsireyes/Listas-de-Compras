@@ -1,11 +1,11 @@
 import { Button } from "react-bootstrap";
 
-const AddItemForm = () => {
+const AddItemForm = ({ handleShow }) => {
     return (
         <>
-        <Button>
-            Agregar
-        </Button>
+            <Button onClick={handleShow}>
+                Agregar
+            </Button>
         </>
     );
 }
